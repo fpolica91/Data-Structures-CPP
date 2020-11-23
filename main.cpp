@@ -1,6 +1,8 @@
 #include <iostream>
 #include "pointer.h"
 #include "arrayheap.h"
+#include "reference.h"
+#include "types.h"
 using namespace std;
 
 
@@ -15,5 +17,7 @@ int main() {
   // }
   pointer();
   arrayheap();
+  types();
+  reference();
   return 0;
 }
