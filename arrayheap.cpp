@@ -16,4 +16,9 @@ void arrayheap(){
   x[0] =40; x[1] =34;
    for(int i =0; i < 2; i++)
     cout<<x[i]<<endl;
+  free(p);
+  // when dynamically allocating memory
+  //delete after done using it.
+  // memory must be released.
+  delete[] x;
 }
