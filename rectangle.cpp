@@ -29,4 +29,8 @@ void rectangle(){
     cout<< x -> length<<endl;
     cout<< x -> width<<endl;
 
+    //in c++
+    struct Rectangle *y;
+    y = new Rectangle;
+
 }
