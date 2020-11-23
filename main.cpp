@@ -3,6 +3,7 @@
 #include "arrayheap.h"
 #include "reference.h"
 #include "types.h"
+#include "rectangle.h"
 using namespace std;
 
 
@@ -19,5 +20,6 @@ int main() {
   arrayheap();
   types();
   reference();
+  rectangle();
   return 0;
 }
