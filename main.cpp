@@ -7,6 +7,8 @@
 #include "types.h"
 #include "rectangle.h"
 #include "by_address.h"
+#include "by_reference.h"
+#include "parameter_array.h"
 using namespace std;
 
 
@@ -19,11 +21,13 @@ int main() {
   // for (int x:variable) {
   //     cout<<x<<endl;
   // }
-  pointer();
-  arrayheap();
-  types();
-  reference();
-  rectangle();
+  // pointer();
+  // arrayheap();
+  // types();
+  // reference();
+  // rectangle();
   address();
+  by_reference();
+  array_returned();
   return 0;
 }
