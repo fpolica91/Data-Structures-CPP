@@ -9,6 +9,8 @@
 #include "by_address.h"
 #include "by_reference.h"
 #include "parameter_array.h"
+#include "structure_parameter.h"
+#include "struct_array.h"
 using namespace std;
 
 
@@ -26,8 +28,10 @@ int main() {
   // types();
   // reference();
   // rectangle();
-  address();
-  by_reference();
-  array_returned();
+  // address();
+  // by_reference();
+  // array_returned();
+  // structure();
+  created();
   return 0;
 }
