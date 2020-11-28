@@ -10,8 +10,9 @@ int* fun(int n)
   return (p);
 }
 
-void funner(int A[ ], int n){
+void funner(int *A, int n){
   for(int i =0;  i < n; i ++){
+    A[i] = A[i] + 2;
     cout<<A[i]<< " funner" <<endl;
   }
 
