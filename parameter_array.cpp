@@ -7,7 +7,10 @@ int* fun(int n)
 {
   int *p;
   p=(int*)malloc(n * sizeof(int));
-  return (p);
+  for(int i = 0; i <n; i++){
+    p[i] = i+1;
+  }
+  return p;
 }
 
 void funner(int *A, int n){
@@ -27,8 +30,10 @@ int array_returned(){
   for(int x:B)
   cout<<x<<" end of line"<<endl;
 
-  int *A;
-  A = fun(5);
-  cout<<A<<endl;
+  int *ptr;
+  int size = 7;
+  ptr = fun(size);
+  for(int i=0; i <size; i++)
+  cout<<ptr[i]<<" created array"<<endl;
   return 0;
 }
